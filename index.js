@@ -9,5 +9,5 @@ server.get("/", (req, res) => {
   res.status(200).json(songs);
 });
 
-const port = 5000;
-server.listen(port, () => console.log(`\n*** Runnind on por ${port} ***\n`));
+const port = process.env.PORT || 5000;
+server.listen(port, () => console.log(`\n*** Running on por ${port} ***\n`));

@@ -9,4 +9,5 @@
 - `npm i express`
 - `git status` => `node_modules` shows up on the list.
 - `npx gitignore noe` to generate a `.gitignore` super file
-- or `gitignore
+- or `gitignore`
+- to install nodemon `npm i -D nodemon`
